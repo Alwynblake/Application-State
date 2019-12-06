@@ -6,6 +6,7 @@ import * as actions from '../store/app-actions.js';
 class App extends React.Component {
 
   changeMyName = () => {
+    //remove statement declarations
     let words = ['foo','bar','baz'];
     let word = words[ Math.floor(Math.random()*words.length) ];
     this.props.handleChange(word);
